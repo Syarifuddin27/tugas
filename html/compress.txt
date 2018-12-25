@@ -1,0 +1,7 @@
+function compress($value)
+	{
+		$data = count_chars($value, 1);
+		foreach ($data as $key => $value){
+			echo chr($key). $value;
+		}
+	}

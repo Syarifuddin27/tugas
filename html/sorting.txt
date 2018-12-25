@@ -1,0 +1,7 @@
+$arr = explode(" ", "val_input"]);
+sort($arr);
+echo "<center>";
+foreach ($arr as $key => $value) 
+{
+	echo $value. "\n";
+}

@@ -1,0 +1,12 @@
+function anagram($str1, $str2)
+{
+	$arr1 = count_chars(strtolower($str1));
+	$arr2 = count_chars(strtolower($str2));
+
+	if ($arr1 == $arr2) {
+		echo "true";
+	} else {
+		echo "false";
+	}
+	
+}

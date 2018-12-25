@@ -1,0 +1,15 @@
+function isUnique($string)
+{
+	  $str = str_split($string, 1);
+	  $count = array();
+
+	  foreach ($str as $val) {
+		$count[] = substr_count($string, $val);
+	  }	
+
+	  if (in_array('2', $count)){
+	  	echo "<center>false";
+	  } else{
+	  	echo "<center>true";
+	  }
+}

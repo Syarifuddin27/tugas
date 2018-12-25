@@ -1,0 +1,3 @@
+function swap(&$a, &$b) {
+        list($b, $a) = array($a, $b);
+}
